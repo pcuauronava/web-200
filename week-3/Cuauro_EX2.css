@@ -1,0 +1,89 @@
+/*The following lines sets the whole page and the body a text size of 16 pixels*/
+/*Instruction 1*/
+html, body {
+    font-size: 16px;
+}
+/*The following lines Selects the font family to: first Quattrocento as the first option
+Georgia as the second option and Times new Roman as third option and sets the h1 weight to 700
+h2 to 500. Also sets the p class to a line-heigh of 1.4em*/
+/*Instruction 2,3,7*/
+p {
+    font-family: 'Quattrocento', Georgia, 'Times New Roman', serif;
+    font-weight: 400;
+    line-height: 1.4em;
+}
+/*The following lines Selects the font family to: first Oswald as the first option
+Verdana as the second option and Arial as third option*/
+/*Instruction 4*/
+h1, h2 {
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+}
+/*Adjust height of h1 to 700. Make h1 all uppercase,change the font-size to 3.05, 5em word
+spacing, eliminate the margin and center the text with text align*/
+/*Instruction5,8*/
+h1 { 
+    font-weight: 700;
+    text-transform: uppercase;
+    word-spacing: .5em;
+    margin: 0;
+    text-align: center;
+    font-size: 3.052em;
+}
+/*Adjust height of h1 to 500, change the font size to 2.441, 2em word spacing, eliminate
+the margin, align the text to the left and add a top padding of 15 pixels*/
+/*Instruction6,9*/
+h2 {
+    font-weight: 500;
+    font-size: 2.441em;
+    word-spacing: .2em;
+    margin: 0;
+    text-align: left;
+    padding-top: 15px;
+}
+/*This is to set the address class the following font families: Quattrocento 1st, Georgia
+2nd, Times new roman, last option. Also align the address to the center*/
+/*Instruction10,11*/
+address {
+    font-family: 'Quattrocento', Georgia, 'Times New Roman', serif;
+    text-align: center;
+}
+/*This is to set the hyperlink to bold with font-size 1.25em, font color: #4F3674 and remove
+the underline*/
+/*Instruction12*/
+address a {
+    font-size: 1.25em;
+    font-weight: bold;
+    text-decoration: none;
+    color: #4F3674;
+}
+/*This is to activate the underline at the hyperlinks when the mouse is passed over it*/
+/*Instrucion13,14*/
+address a:hover {
+    text-decoration: underline;
+    background-color: #D6A800;
+}
+/*This is to change the color of the hyperlinks and the background color after the link
+is clicked*/
+/*Instruction15*/
+address a:visited {
+    color: blue;
+}
+/*This is to apply the italic style to the class sentence*/
+/*Instruction16*/
+.sentence {
+    font-style: italic;
+}
+/**/
+/*This is to give the intro class a text indent of 0.2em, but only to the first paragraph*/
+/*Instruction17*/
+.intro {
+    text-indent: 2em;
+}
+/*This is a test for the id "container"* I tested this because I wanted to now the
+difference between class and id. For "id" the point is used and for "class" the "#" is
+used it should be presented in the page as my name*/
+#container {
+    font-family: Georgia;
+    font-size: x-large;
+    color: rgb(4, 9, 36);
+}

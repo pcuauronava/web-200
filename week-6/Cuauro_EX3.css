@@ -1,0 +1,42 @@
+h1 {
+    text-align: center;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+}
+h3 {
+    font-weight: 500;
+}
+#left {
+    float:left;
+    width: 45%;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    border: solid 1px;
+    border-color: red;
+    border-radius: 15px;
+    padding: 10px;
+}
+#right {
+    float:right;
+    width: 45%;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    border: solid 1px;
+    border-color: red;
+    border-style: dashed;
+    border-radius: 15px;
+    padding: 10px;
+    list-style-type: upper-roman;
+}
+#bottom {
+    width: 100%;
+    margin-top: 60%;
+}
+#home {
+    float: right;
+    margin-bottom: 20px;
+}
+#link, #home{
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    text-decoration: none;
+}
+#link:hover, #home:hover {
+    text-decoration: underline;
+}
