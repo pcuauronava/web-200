@@ -6,41 +6,53 @@ figcaption {
     font-style: italic;
     font-size: .75em;
     font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-weight: 400;
 }
 
 h1, h3, figcaption {
-    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    /*font-family: 'Oswald', Verdana, Arial, sans-serif;
     font-weight: 400;
-    text-align: center;
+    text-align: center;*/
     color:rgba(185, 63, 8, 1)
 }
 
-.grid-container {
+#image-gallery {
     display: grid;
     grid-template-columns: auto auto auto;
-    padding: 5px;
-    background-color: rgba(247, 112, 24, 1);
+/*    padding: 5px;*/
+/*    background-color: rgba(247, 112, 24, 1);*/
 }
 
-#gallery-item {
-    border: solid,rgba(185, 63, 8, 1);
+.gallery-item {
+    border: 1px solid rgba(185, 63, 8, 1);
     border-radius: 15px;
     padding: 5px;
 }
 
 .gallery-title {
     text-align: center;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-weight: 400;
 }
-.grid-item {
+/*.grid-item {
     background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
     font-size: 30px;
     text-align: center;
-}
+}*/
 
-.page-title {
+#page-title {
     text-align: center;
     font-family: 'Oswald', Verdana, Arial, sans-serif;
     font-weight: 400;
+}
+
+img {
+    width: 400px;
+    height: 350px;
+}
+
+figure {
+    text-align: center;
 }
