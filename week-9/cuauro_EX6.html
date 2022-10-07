@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>WEB 200 Fundamentals of Web Development</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;700&family=Quattrocento:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="cuauro_EX6.css">
+</head>
+<body>
+    <header>
+        <h1>Assignment 9.2: Build a Web Page - Part 6</h1>
+    </header>
+        <div id="navbar">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </div>
+
+
+        <div id="container">
+            <div class="card">
+                <div class="card-title">Book Entry Form</div>
+
+                <div class="card-content">
+                    <div class="form">
+                        <div class="form-field">
+                            <form action="/action_page.php">
+                                <label for="txtBookName">Book name:</label><br>
+                                <input type="text" id="txtBookName" class="input" name="txtBookName"><br>
+                                </form> 
+                        </div>
+                        <div class="form-field">
+                            <button type="submit" class="btn btn-primary full-width">Create Book</button><br>
+                        </div>
+                              
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+                <div class="card">
+                    <div class="card-title">
+                        Top 5 Favorite Books
+                    </div>
+                    <div class="card-content">
+                        <table id="books">
+                            <tr>
+                                <th>Book Id</th>
+                                <th>Book Name</th>
+                            </tr>
+                            <tr>
+                                <td>100</td>
+                                <td>The Silmarilion</td>
+                            </tr>
+                            <tr>
+                                <td>101</td>
+                                <td>Inherit the Earth</td>
+                            </tr>
+                            <tr>
+                                <td>102</td>
+                                <td>Economy for the people</td>
+                            </tr>
+                            <tr>
+                                <td>103</td>
+                                <td>Liberalism and Capitalism</td>
+                            </tr>
+                            <tr>
+                                <td>104</td>
+                                <td>The Little Prince</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            <footer>
+                <p> &copy; <script>document.write(new Date().getFullYear())</script> - <a href="www.bellevue.edu" target="_blank">Bellevue University</a></p>
+            </footer>
+</body>
+</html>
